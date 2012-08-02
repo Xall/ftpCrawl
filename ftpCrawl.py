@@ -4,7 +4,7 @@ import os
 #Setup
 host = '88.80.210.101'
 user = 'web3'
-password = 'bla'
+password = 'blub'
 path = '/html/typolight-original/tl_files/projects/lill-conference-2012'
 website = 'contao'
 
@@ -22,7 +22,7 @@ fobj_out.write("<body>")
 
 #Connect to FTP
 ftp = ftputil.FTPHost(host, user, password)
-#Recursively walk through all folders, write result to 3D array
+# Recursively walk through all folders, write result to 3D array
 allDirectories = ftp.walk(path, topdown=True, onerror=None)
 #Iterate over array and filter all images bigger than 1KB
 for root, dirs, files in allDirectories:
@@ -40,7 +40,6 @@ for root, dirs, files in allDirectories:
         fobj_out.write("<img src='" + website + "/" + name + "'>")
         fobj_out.write("<p>" + filepath + "</p>")
         #DEBUG
-        #print filepath
         #print ftp.stat(filepath).st_size
 ftp.close()
 
