@@ -28,6 +28,11 @@ local.properties
 # PDT-specific
 .buildpath
 
+#################
+## Sublimetext 2
+#################
+.sublime-project
+.sublime-workspace
 
 #################
 ## Visual Studio

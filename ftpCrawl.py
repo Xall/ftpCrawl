@@ -4,7 +4,7 @@ import os
 #Setup
 host = '88.80.210.101'
 user = 'web3'
-password = ''
+password = 'bla'
 path = '/html/typolight-original/tl_files/projects/lill-conference-2012'
 website = 'contao'
 
