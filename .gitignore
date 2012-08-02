@@ -31,8 +31,8 @@ local.properties
 #################
 ## Sublimetext 2
 #################
-.sublime-project
-.sublime-workspace
+*.sublime-project
+*.sublime-workspace
 
 #################
 ## Visual Studio
