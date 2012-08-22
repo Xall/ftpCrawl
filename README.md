@@ -12,4 +12,4 @@ ftpCrawl is a python script, which searches an FTP server for images, downloads 
 * `username: ` ftp account username
 * `password: ` ftp account password
 * `website: ` website name (used only for subfolder creation)
-* `serverfolder: ` optional: sets root folder for image search server
+* `serverfolder: ` optional: sets root folder for image search on server
